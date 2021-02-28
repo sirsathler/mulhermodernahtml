@@ -1,0 +1,119 @@
+/*/*PAGE----------------------------------*/
+#nav-btn2{
+	background-color: #df063f;
+	color: white;
+	border: 1px solid #df063f
+}
+
+
+#product-filter-nav ul a li{
+	font-size: 2rem;
+}
+
+#price-filter {
+	all:unset; /* limpa os estilos iniciais */
+  	-webkit-appearance: none; /* remove a aparencia padão */
+  	border: none;
+  	border-radius: 20px;
+  	background-color: #e1e1e1;
+}
+
+#price-filter:hover {
+  opacity: 1;
+}
+
+#price-filter::-webkit-slider-thumb{
+	border-radius: 50%;
+    background: red;
+}
+
+
+
+.on{
+	background-color: #df063f;
+	color: white;
+	border: 1px solid #df063f;
+}
+
+.price-filter-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.price-filter-container p {
+	font-size: 2rem;
+}
+
+#price-filter{
+	margin: 20px;
+}
+
+#price-filter-value{
+	text-align: center;
+}
+
+
+/*PRODUCTS*/
+
+.products-container{
+	margin: 40px;
+	display: none;
+	grid-gap: 20px;
+	justify-content: center;
+	align-content: center;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+#bags-container{
+	display: grid;
+}
+
+.card-container{
+	cursor: pointer;
+	box-shadow: 0px 0px 5px #a1a1a1;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	color: black;
+}
+
+.card-img{
+	height: 240px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.card-container img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.card-info{
+	padding: 10px;
+}
+
+.card-title{
+	font-size: 3rem;
+}
+
+.card-collection{
+	font-size: 2rem;
+}
+
+.card-price{
+	font-size: 4rem;
+}
+
+.buy-button{
+	width: 100%;
+	padding: 10px 0px 10px 0px;
+	background-color: #df063f;
+	color: white;
+	transition-duration: 0.2s;
+}
+
+.card-container:hover .buy-button{
+	background-color: #ff0547;
+
+}

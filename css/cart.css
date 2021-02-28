@@ -1,0 +1,25 @@
+*{
+	transition: 0s;
+}
+
+h2{
+	font-size: 2rem;
+	text-align: center;
+}
+
+/*--------------------------------------------*/
+
+.shop-resume{
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+
+	align-items: flex-end;
+}
+
+.buy-button{
+	display: flex;
+	background-color: #df063f;
+	padding: 20px;
+	color: white;
+}

@@ -1,0 +1,64 @@
+@keyframes backanim{
+	from{background-position: 0px;}
+	to{background-position: 256px;}
+}
+
+
+.card-container{
+	box-shadow: 0px 0px 5px #a1a1a1;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	color: black;
+	display: none;
+}
+
+.card-img{
+	background-image: url("../src/img/logo.png");
+	animation: backanim normal 10s infinite linear;
+	width: 60%;
+	height: 400px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.card-container img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.card-info{
+	position: relative;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 10px;
+}
+
+.card-title{
+	font-size: 4rem;
+}
+
+.card-collection{
+	font-size: 2rem;
+}
+
+.card-price{
+	font-size: 6rem;
+}
+
+.buy-button{
+	position: absolute;
+	bottom: 0;
+	cursor: pointer;
+	width: 100%;
+	padding: 20px 0px 20px 0px;
+	background-color: #df063f;
+	color: white;
+	transition-duration: 0.2s;
+}
+
+.buy-button:hover{
+	background-color: #ff0547;
+}

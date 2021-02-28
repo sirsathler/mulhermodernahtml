@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	list-style: none;
+	text-decoration: none;
+}
+
+@font-face{
+	font-family: "Voga-Medium";
+	src: url("./src/fonts/Voga-Medium.otf");
+}
+
+/* RESET AND IMPORT CSS ------------------------------------------------ */
+
+html{
+	font-size: 62.5%;
+	font-family: 'Poiret One', cursive;
+}
+
+header{
+	width: 100%;
+	text-align: center;
+	overflow: auto;
+	background-color: white;
+}
+
+body{
+	background-color: #fdfdfd;
+	font-size: 3rem;
+}
+
+nav{
+	background-color: white;
+}
+
+li{
+	font-size: 2.3rem;
+}
+
+.section-title{
+	margin: 20px;
+	text-align: center;
+}
